@@ -1,0 +1,30 @@
+meta {
+  name: cadastrarComentario
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/comentarios
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "alimento": {
+      "nome": "Salada de Frutas",
+      "receita": {
+        "nome": "Receita de Salada Caesar",
+        "link": "https://example.com/salada-caesar",
+        "imagem": "https://example.com/imagens/salada-caesar.jpg"
+      },
+      "tabela": {
+        "url": "https://example.com/tabela-nutricional-salada"
+      },
+      "imagem": "https://example.com/imagens/salada-frutas.jpg"
+    },
+    "texto": "A salada de frutas é uma opção saudável e deliciosa!"
+  }
+  
+}

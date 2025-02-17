@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="Telainicial.css">
+    <script src="Telainicial.js"></script>
+</head>
+
+<body>
+
+    <div class="inlineDiv">
+        <input placeholder="Pesquise uma receita..." class="BarraPesquisa"></input>
+
+        <button onclick="Pesquisar()" id="BotaoLupa">
+            <img src="assets/image 1.svg" alt="" width="30">
+        </button>
+
+        <img src="assets/folha 1.svg" alt="" id="Logo">
+    </div>
+
+    <div class="FlexDiv">
+        <div class="PrincipaisInformacoes">
+            <h1>Principais Informações</h1>
+        </div>
+
+        <div class="img19">
+            <img src="assets/image 19.svg" alt="" width="30" id="img19">
+        </div>
+
+        <div class="AlimentosMaisPesquisados">
+            <h1>Alimentos mais pesquisados</h1>
+        </div>
+    </div>
+
+    <div class="FlexDiv">
+        <div class="content">
+            <div class="infoDiv">
+                <h4>Confira: os piores alimentos do mundo</h4>
+                <div class="LinkReceitaDiv">
+                    <a href="https://medsulsaude.com.br/quais-sao-os-piores-alimentos-para-a-saude/" class="teste">ler mais</a>
+                </div>
+            </div>
+            <div class="infoDiv">
+                <h4>5 habitos que ajudam no emagrecimento saudavel</h4>
+                <div class="LinkReceitaDiv">
+                    <a href="https://sallet.com.br/5-habitos-que-ajudam-no-emagrecimento-saudavel-e-qualidade-de-vida/" class="teste">ler mais</a>
+                </div>
+            </div>
+            <div class="infoDiv">
+                <h4>Confira: alimentos que ajudam a dormir melhor</h4>
+                <div class="LinkReceitaDiv">
+                    <a href="https://blog.memed.com.br/alimentos-ajudam-dormir-melhor/" class="teste">ler mais</a>
+                </div>
+            </div>
+            <div class="infoDiv">
+                <h4>Distúrbios alimentares: o que são e como ajudar alguém nessa condição</h4>
+                <div class="LinkReceitaDiv">
+                    <a href="https://www.psicologoeterapia.com.br/blog/disturbios-alimentares-o-que-sao/" class="teste">ler mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="alimentos">
+                <img class="img" src="assets/cheetos.svg" alt="Cheetos" width="90">
+                <div class="alimentoButton">
+                    <button class="BotaoAlimento" onclick="goToTelaAlimentoEspecificado('Cheetos')" id="BotaoAlimento">
+                        <figcaption>Cheetos</figcaption>
+                    </button>
+                </div>
+            </div>
+            <div class="alimentos">
+                <img class="img" src="assets/aveia.svg" alt="Aveia" width="90">
+                <div class="alimentoButton">
+                    <button class="BotaoAlimento" onclick="goToTelaAlimentoEspecificado('Aveia')" id="BotaoAlimento">
+                        <figcaption>Aveia</figcaption>
+                    </button>
+                </div>
+            </div>
+            <div class="alimentos">
+                <img class="img" src="assets/banana.svg" alt="Banana" width="90">
+                <div class="alimentoButton">
+                    <button class="BotaoAlimento" onclick="goToTelaAlimentoEspecificado('Banana')" id="BotaoAlimento">
+                        <figcaption>Banana</figcaption>
+                    </button>
+                </div>
+            </div>
+            <div class="alimentos">
+                <img class="img" src="assets/cupuaçu.svg" alt="Cupuaçu" width="90">
+                <div class="alimentoButton">
+                    <button class="BotaoAlimento"  onclick="goToTelaAlimentoEspecificado('Cupuaçu')" id="BotaoAlimento">
+                        <figcaption>Cupuaçu</figcaption>
+                    </button>
+                </div>
+            </div>
+            <div class="alimentos">
+                <img class="img" src="assets/doce.svg" alt="Doce" width="90">
+                <div class="alimentoButton">
+                    <button class="BotaoAlimento" onclick="goToTelaAlimentoEspecificado('Doce')" id="BotaoAlimento">
+                        <figcaption>Doce</figcaption>
+                    </button>
+                </div>
+            </div>
+            <div class="alimentos" >
+                <img class="img" src="assets/miojo.svg" alt="Miojo" width="90">
+                <div class="alimentoButton">
+                    <button class="BotaoAlimento" onclick="goToTelaAlimentoEspecificado('Miojo')" id="BotaoAlimento">
+                        <figcaption>Miojo</figcaption>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="inlineDiv">
+            <div>
+                <img src="assets/image 20.svg" alt="" width="30">
+            </div>
+
+            <div>
+                <button onclick="goToTelaSalvos()" id="botao">
+                    Receitas Salvas
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

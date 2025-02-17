@@ -1,0 +1,117 @@
+/*Estrutura*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #065F11;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    height: 40vh;
+    background-color: rgba(37, 169, 53, 0.5);
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+/*Header*/
+.NomePagina{
+    display: flex;
+}
+
+#BotaoLupa {
+    background-color: #065F11;
+    border: none;
+}
+
+.BarraPesquisa {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    width: 60vw;
+    margin-left: 16%;
+    height: 5vh;
+    border-radius: 30px;
+}
+
+/*Section*/
+.receitas {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    gap: 20px;
+    margin-top: 8%;
+   
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 90%;
+    background-color: rgba(217, 217, 217, 1);
+    text-align: center;
+}
+
+.Img {
+    width: 100%;
+}
+#ImgMousse{
+    max-width: 180px;
+    max-height: 150px;
+}
+
+#BotaoReceita{
+    max-width: 20%;
+    margin-left: 40%;
+    background-color: rgba(217, 217, 217, 1);;
+}
+
+.ImgBotaoReceita{
+    width: 100%;
+}
+
+/*footer*/
+#botao {
+    background-color: #5F7C3A;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.LinkReceitaDiv:hover {
+    background-color: #218838; 
+    text-decoration: none;
+}
+
+.LinkReceitaDiv{
+    margin-left: 20%;
+    margin-bottom: 10%;
+    text-align: center;
+    text-decoration: none;
+    width: 60%;
+    display: inline-block;
+    padding: 10px 15px; 
+    background-color: #28a745; 
+    color: white;
+    text-decoration: none; 
+    border-radius: 25px;
+    transition: background-color 0.3s; 
+}
+
+.teste{
+    text-decoration: none;
+    color: inherit;
+}

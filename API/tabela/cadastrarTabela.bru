@@ -1,0 +1,26 @@
+meta {
+  name: cadastrarTabela
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/tabelas
+  body: json
+  auth: none
+}
+
+body:json {
+  [
+    { "url": "https://example.com/tabela-bolo-cenoura" },
+    { "url": "https://example.com/tabela-macarrao" },
+    { "url": "https://example.com/tabela-torta-maca" },
+    { "url": "https://example.com/tabela-lasanha-frango" },
+    { "url": "https://example.com/tabela-pizza-calabresa" },
+    { "url": "https://example.com/tabela-sopa-legumes" },
+    { "url": "https://example.com/tabela-panqueca-americana" },
+    { "url": "https://example.com/tabela-risoto-cogumelos" },
+    { "url": "https://example.com/tabela-churrasco" },
+    { "url": "https://example.com/tabela-brigadeiro-gourmet" }
+  ]
+}

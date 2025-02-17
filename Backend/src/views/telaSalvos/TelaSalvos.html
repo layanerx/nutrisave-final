@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Salvas</title>
+    <link rel="stylesheet" href="TelaSalvos.css">
+    <script src="TelaSalvos.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="NomePagina">
+            <img src="assets/image 32.svg" alt="" width="60px">
+            <h1>Receitas Salvas</h1>
+        </div>
+
+        <div class="inlineDiv">
+            <input placeholder="Pesquise uma receita..." class="BarraPesquisa"></input>
+
+            <button onclick="Pesquisar()" id="BotaoLupa">
+                <img src="assets/image 1.svg" alt="" width="30">
+            </button>
+
+            <img src="assets/folha 1.svg" alt="" id="Logo">
+
+        </div>
+
+    </header>
+
+    <section>
+        <div class="receitas">
+            <div class="card">
+                <img src="assets/mousse.svg" alt="Mousse de cupuaçu" class="Img" id="ImgMousse">
+                <p>Mousse de Cupuaçu</p>
+                <div class="LinkReceitaDiv">
+                    <a href= "https://www.tudogostoso.com.br/receita/77491-creme-de-cupuacu.html" class="teste"> ver receita</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/crepioca.svg" alt="Crepioca" class="Img">
+                <p>Crepioca</p>
+                <div class="LinkReceitaDiv">
+                    <a href= "https://www.tudogostoso.com.br/receita/183595-crepioca-fit.html" class="teste"> ver receita</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/bolo.svg" alt="Bolo de Cenoura" class="Img">
+                <p>Bolo de Cenoura</p>
+                <div class="LinkReceitaDiv">
+                    <a href= "https://www.receiteria.com.br/receita/cestinhas-de-aveia-com-banana-e-iogurte/" class="teste"> ver receita</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/suco.svg" alt="Suco Detox" class="Img">
+                <p>Suco Detox</p>
+                <div class="LinkReceitaDiv">
+                    <a href= "https://www.tudogostoso.com.br/receita/183595-crepioca-fit.html" class="teste"> ver receita</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <button onclick="goToTelaInicial()" id="botao">
+            Voltar
+        </button>
+    </footer>
+    </div>
+</body>
+
+</html>

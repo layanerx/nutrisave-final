@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Alimento Especificado</title>
+    <link rel="stylesheet" href="TelaAlimentoEspecificado.css">
+    <script src="TelaAlimentoEspecificado.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="FlexDiv">
+            <div class="FlexDiv">
+                <input placeholder="Pesquise uma receita..." class="BarraPesquisa" ></input>
+            </div>
+    
+            <button onclick="Pesquisar()" id="BotaoLupa">
+                <img src="assets/image 1.svg" alt="" width="30">
+            </button>
+    
+            <img src="assets/folha 1.svg" alt="" class="Logo">
+        </div>    
+    </header>
+
+    <section>
+        <div class="CardAlimento">
+            <img src="assets/cupuaçu.svg" alt="" class="cupuacu">
+    
+            <h3>Cupuaçu</h3>
+        </div>
+        <div class="InfoAlimento">
+            <! -- devolver lista componente/quantidade da API --!>
+                <div class="FlexDivTabelas">
+                    <div class="tabela">
+                        <h3>100g</h3>
+                        <table class="qtdComponente" border="1">
+                            <tr>
+                                <td>Componente</td>
+                                <td>Quantidade</td>
+                            </tr>
+                            <tr>
+                                <td>Calcio</td>
+                                <td>8,9 mg</td>
+                            </tr>
+                            <tr>
+                                <td>fosforo</td>
+                                <td>16,3 mg</td>
+                            </tr>
+                            <tr>
+                                <td>ferro</td>
+                                <td>0,4 mg</td>
+                            </tr>
+                            <tr>
+                                <td>vitamina C</td>
+                                <td>24,5 mg</td>
+                            </tr>
+                            <tr>
+                                <td>proteina</td>
+                                <td>1,1 mg</td>
+                            </tr>
+                            <tr>
+                                <td>gorduras</td>
+                                <td>1,25 mg</td>
+                            </tr>
+                            <tr>
+                                <td>fibras</td>
+                                <td>2,42 mg</td>
+                            </tr>
+                            <tr>
+                                <td>carboidratos</td>
+                                <td>10,5 mg</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                        <div class="Receita">
+                            <div class="ImagemReceitaDiv">
+                                <img class="ImagemReceita" src="" alt="Imagem da Receita" style="display: none;">
+                            </div>   
+                            <div class="LinkReceitaDiv">
+                                <a class="LinkReceita" href="#" target="_blank" style="display: none;">Ver Receita</a>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    
+    
+    </section>
+   
+
+    <footer>
+        <button onclick="goToTelaInicial()" class="botao" id="botaoVoltar">
+            Voltar
+        </button>
+
+        <button onclick="goToTelaAvaliacao()" class="botao" id="botaoAvaliar">
+            Avaliar Receita
+        </button>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(6, 95, 17, 1);
+}
+
+.inlineDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FlexDiv {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+div {
+    align-items: center;
+    text-align: center;
+}
+
+.img19 {
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+}
+
+.BarraPesquisa {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    width: 90vw;
+    height: 5vh;
+    border-radius: 30px;
+}
+
+#BotaoLupa {
+    border: none;
+    background-color: rgba(6, 95, 17, 1);
+}
+
+.content {
+
+    border-radius: 30px;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(217, 217, 217, 0.26);
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+.infoDiv {
+    border-radius: 30px;
+    width: 30%;
+    max-height: 30%;
+    background-color: rgba(171, 198, 138, 1);
+    display: inline-block;
+    margin: 7%;
+    align-content: center;
+}
+
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.alimentos {
+    width: 16%;
+    height: 25%;
+    display: inline-block;
+    margin: 7%;
+    align-items: center;
+    background-color: white;
+}
+
+
+#botao {
+    border-radius: 20px;
+    background-color: rgba(95, 124, 58, 1);
+    color: white;
+}
+
+.BotaoAlimento {
+    border-radius: 20px;
+}
+
+.BoxDiv {
+    border: solid;
+}
+
+.PrincipaisInformacoes {
+    margin-left: 10%;
+}
+
+.AlimentosMaisPesquisados {
+    margin-left: 20%;
+}
+
+.LinkReceitaDiv:hover {
+    background-color: #218838; 
+}
+
+.LinkReceitaDiv{
+    text-align: center;
+    text-decoration: none;
+    width: 60%;
+    display: inline-block;
+    padding: 10px 15px; 
+    background-color: #28a745; 
+    color: white;
+    text-decoration: none; 
+    border-radius: 25px;
+    transition: background-color 0.3s; 
+}
+
+.teste{
+    text-decoration: none;
+    color: inherit;
+}

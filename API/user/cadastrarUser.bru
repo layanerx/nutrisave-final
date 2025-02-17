@@ -1,0 +1,28 @@
+meta {
+  name: cadastrarUser
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/users
+  body: json
+  auth: none
+}
+
+body:json {
+  [
+    { "nome": "Lucas Souza", "foto": "https://example.com/foto-lucas.jpg", "userName": "lucassouza", "senha": "senhaForte123" },
+    { "nome": "Ana Clara", "foto": "https://example.com/foto-ana.jpg", "userName": "anaclara", "senha": "senhaAna2023" },
+    { "nome": "Gabriel Lima", "foto": null, "userName": "gabriel123", "senha": "senha123!" },
+    { "nome": "Fernanda Costa", "foto": "https://example.com/foto-fernanda.jpg", "userName": "fercosta", "senha": "senhaSegura789" },
+    { "nome": "Pedro Henrique", "foto": null, "userName": "pedrohenrique", "senha": "senha@Pedro" },
+    { "nome": "Isabela Martins", "foto": "https://example.com/foto-isabela.jpg", "userName": "isamartins", "senha": "senhaIsabela456" },
+    { "nome": "João Pedro", "foto": null, "userName": "joaopedro", "senha": "joaoSenha789" },
+    { "nome": "Mariana Rocha", "foto": "https://example.com/foto-mariana.jpg", "userName": "marirocha", "senha": "senhaRocha123" },
+    { "nome": "Caio Oliveira", "foto": null, "userName": "caiooliveira", "senha": "senhaOliveira321" },
+    { "nome": "Larissa Almeida", "foto": "https://example.com/foto-larissa.jpg", "userName": "lari", "senha": "senha@Lari123" }
+  ]
+  
+  
+}
